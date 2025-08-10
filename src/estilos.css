@@ -127,6 +127,10 @@ main {
     visibility: hidden;
 }
 
+#ultimo-p {
+    margin-bottom: 7px;
+}
+
 input::placeholder,
 textarea::placeholder {
     font-family: Roboto;
