@@ -29,10 +29,14 @@
             </div>
 
             <form class="formulario">
-                <input type="text" class="nome borda-normal" placeholder="Nome completo *">
-                <input type="email" class="email borda-normal" placeholder="Email *">
-                <input type="tel" class="telefone borda-normal" placeholder="Telefone *">
-                <input type="textarea" class="mensagem borda-normal" placeholder="Mensagem *">
+                <input type="text" class="nome borda-preta" placeholder="Nome completo *">
+                <p class="texto-vermelho">campo obrigatório</p>
+                <input type="email" class="email borda-preta" placeholder="Email *">
+                <p class="texto-vermelho">campo obrigatório</p>
+                <input type="tel" class="telefone borda-preta" placeholder="Telefone *">
+                <p class="texto-vermelho">campo obrigatório</p>
+                <textarea class="mensagem borda-preta" placeholder="Mensagem *"></textarea>
+                <p class="texto-vermelho"></p>
                 <p>*campos obrigatórios</p>
                 <button type="submit" class="btn">Enviar</button>
             </form>
@@ -40,7 +44,7 @@
         </div>
     </main>
 
-    <script src="script.js"></script>
+    <script src="src/script.js" type="text/javascript"></script>
 </body>
 
 </html>
